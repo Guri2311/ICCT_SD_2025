@@ -38,12 +38,13 @@
             border-radius: 50%;
             border: 3px;
         }
-
-    
         .header-text {
             flex: 1;
             text-align: center;
             min-width: 250px;
+        }
+        .logoheadleft{
+            filter: drop-shadow(0 0 0.35rem rgb(244, 250, 255));
         }
 
         .custom-header h1 {
@@ -336,9 +337,11 @@
     <header class="custom-header d-flex align-items-center justify-content-between">
         <!-- Left Logo -->
         <div class="header-logo-container">
+            <div class="logoheadleft">
             <a href="https://gndec.ac.in">
             <img src="Images/image.png" alt="GNDEC Logo" class="header-logo">
             </a>
+        </div>
         </div>
     
         <!-- Center Text -->
@@ -351,7 +354,7 @@
     
        <!-- Right Logo with Oval Shape and Blur Effect -->
         <div class="header-logo-container">
-            <a href="https://isteonline.in/">
+            <a href="https://isteonline.in">
             <img src="Images/Iste.jpg" alt="Conference Logo">
             </a>
         </div>
@@ -375,7 +378,7 @@
                         <b>About Institute</b>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                        <li class="nav-item me-3"><a class="nav-link" href="#about">About College</a></li>
+                        <li><a class="dropdown-item" href="#about" >About  College</a></li>
                         <li><a class="dropdown-item" href="https://www.gndec.ac.in/" >GNDEC</a></li>
                         <li><a class="dropdown-item" href="https://cse.gndec.ac.in/" >GNDEC CSE</a></li>
                     </ul>
@@ -643,7 +646,7 @@
             <div class="row align-items-center">
                 <!-- Image on Left -->
                 <div class="col-md-6 text-center">
-                    <img src="/Images/bacground.jpeg" alt="Conference Image" class="about-image img-fluid">
+                    <img src="Images/bacground.jpeg" alt="Conference Image" class="about-image img-fluid">
                 </div>
                 <!-- Text on Right -->
                 <div class="col-md-6">
